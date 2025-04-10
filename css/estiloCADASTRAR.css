@@ -1,0 +1,179 @@
+
+.bg-custom{
+    background-color: #282828 !important;
+}
+
+header{
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar{
+    background-color: #282828 !important;
+}
+
+.navbar a{
+    color: white;
+}
+
+
+.menu li{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+
+.cabecalho img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+
+/* From Uiverse.io by Yaya12085 */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #484848;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.title {
+    font-size: 28px;
+    color: #107A09;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #107A09;
+}
+
+.title::before {
+    width: 18px;
+    height: 18px;
+    background-color: #107A09;
+}
+
+.title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+}
+
+.message, .signin {
+    color: #107A09;
+    font-size: 14px;
+}
+
+.signin {
+    text-align: center;
+}
+
+.signin a {
+    color: #107A09;
+}
+
+.signin a:hover {
+    text-decoration: underline #107A09;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+}
+
+.form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input:valid + span {
+    color: green;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    background-color: #107A09;
+    padding: 10px;
+    border-radius: 10px;
+    color: #282828 !important;
+    font-size: 16px;
+    transform: .3s ease;
+}
+
+.submit:hover {
+    background-color: rgb(20, 80, 48);
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.conteudo{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

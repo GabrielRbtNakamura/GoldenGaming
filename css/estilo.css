@@ -1,0 +1,91 @@
+.bg-custom{
+    background-color: #282828 !important;
+}
+
+header{
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #282828 !important;
+}
+
+.navbar a{
+    color: white;
+}
+
+input{
+    background-color: #484848;
+    color: white;
+    width: 280px;
+    height: 30px;
+}
+
+
+
+.cabecalho img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jogos {
+    border: solid 5px #107A09;
+    width: 100%;
+    max-width: 400px;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.jogos img {
+    width: 100%;
+    height: 150px;
+    max-width: 310px;
+    max-height: 200px;
+}
+
+
+
+.jogos h3{
+    color: white;
+}
+
+.jogos  p{
+    color: white;
+    font-size: 15px;
+}
+
+
+input{
+    border-radius: 10px; !important;
+}
+
+.mods{
+    margin-top: 80px;
+}
+
+.logo img{
+    padding: 10px;
+}
+
+

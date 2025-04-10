@@ -1,0 +1,164 @@
+.bg-custom {
+    background-color: #282828 !important;
+}
+
+header {
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar {
+    background-color: #282828 !important;
+}
+
+.navbar a {
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+input {
+    background-color: #484848;
+    color: white;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.cabecalho img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+/* Ajusta o formulário para centralizar */
+.conteudo {
+    margin-top: 200px; /* Ajustado para evitar sobreposição do header */
+    border: solid 5px #107A09;
+    width: 90%; /* Reduzi um pouco para melhor adaptação */
+    max-width: 900px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ajusta os títulos e inputs */
+.contato h1 {
+    color: white;
+    text-align: center;
+}
+
+.InputSuperior,
+.InputInferior,
+.InputUltimo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para os inputs se ajustarem em telas menores */
+    margin-top: 40px;
+}
+
+.InputSuperior p,
+.InputInferior p,
+.InputUltimo p {
+    color: white;
+}
+
+.InputUltimo input {
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Botão de envio */
+.botao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #107A09;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao button:hover {
+    background-color: #0a5a06;
+}
+
+/* Ajuste do footer */
+footer {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Ícones sociais */
+footer div a {
+    font-size: 20px;
+}
+
+/*  Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conteudo {
+        width: 95%;
+        padding: 20px;
+    }
+
+    input {
+        width: 100%; /* Para os inputs ocuparem toda a largura disponível */
+        max-width: 350px;
+    }
+
+    .InputSuperior,
+    .InputInferior,
+    .InputUltimo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .InputUltimo input {
+        width: 90%;
+    }
+
+    .botao button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+}

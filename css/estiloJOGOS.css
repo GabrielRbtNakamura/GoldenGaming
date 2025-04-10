@@ -1,0 +1,143 @@
+/* ======= ESTILO GLOBAL ======= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 100px;
+}
+
+/* ======= ESTILO DO INPUT ======= */
+input {
+    background-color: #484848;
+    color: white;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px !important;
+}
+
+/* ======= ESTILOS PERSONALIZADOS ======= */
+.bg-custom {
+    background-color: #282828 !important;
+}
+
+header {
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu li {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.cabecalho img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.navbar {
+    background-color: #282828 !important;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+}
+
+/* ======= SEÇÃO DE JOGOS ======= */
+.jogosExpecificos {
+    margin-top: 200px;
+}
+
+.accordion-button {
+    background-color: #484848 !important;
+}
+
+.accordion-item {
+    border: 2px solid #107A09 !important;
+}
+
+.accordion-body {
+    background-color: #282828 !important;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ======= CARD DE JOGOS ======= */
+.jogos {
+    border: solid 5px #107A09;
+    width: 100%;
+    max-width: 400px;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+.jogos img {
+    width: 100%;
+    height: auto;
+    max-width: 310px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.jogos h3 {
+    color: white;
+}
+
+.jogos p {
+    color: white;
+    font-size: 15px;
+}
+
+/* ======= RESPONSIVIDADE ======= */
+@media (max-width: 768px) {
+    .jogos {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .jogos img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cabecalho img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .jogosExpecificos {
+        margin-top: 150px;
+    }
+
+    body {
+        padding-top: 80px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

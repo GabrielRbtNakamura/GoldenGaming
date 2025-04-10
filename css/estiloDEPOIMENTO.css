@@ -1,0 +1,97 @@
+.bg-custom{
+    background-color: #282828 !important;
+}
+
+header{
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar{
+    background-color: #282828 !important;
+}
+
+.navbar a{
+    color: white;
+}
+
+
+.menu li{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+input{
+    background-color: #484848;
+    color: white;
+    width: 280px;
+    height: 30px;
+}
+
+.cabecalho img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+/* From Uiverse.io by Yaya12085 */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    max-width: 320px;
+}
+
+.stars {
+    display: flex;
+    grid-gap: 0.125rem;
+    gap: 0.125rem;
+    color: rgb(238, 203, 8);
+}
+
+.star {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.infos {
+    margin-top: 1rem;
+}
+
+.date-time {
+    color: rgba(7, 63, 216, 1);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.description {
+    margin-top: 0.4rem;
+    line-height: 1.625;
+    color: rgba(107, 114, 128, 1);
+}
+
+.author {
+    margin-top: 1.3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgba(107, 114, 128, 1);
+}
+
+.avaliacoes{
+    margin-top: 210px;
+}
+
+.conteiner2{
+    margin-top: 50px;
+}
+
+input{
+    border-radius: 10px; !important;
+}
